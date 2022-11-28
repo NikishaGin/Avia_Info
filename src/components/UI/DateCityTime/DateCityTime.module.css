@@ -1,0 +1,32 @@
+.departure_data {
+    grid-column: 2 / 3;
+    grid-row: 2 / auto;
+    align-self: center;
+    justify-self: center;
+}
+
+.arrival_date {
+    grid-column: 4 / 5;
+    grid-row: 2 / auto;
+    align-self: center;
+    justify-self: center;
+}
+
+.time {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #232323;
+}
+
+.city_data {
+    margin-top: 4px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5C5C5C;
+}

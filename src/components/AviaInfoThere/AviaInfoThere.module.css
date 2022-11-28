@@ -1,0 +1,43 @@
+.container {
+    position: absolute;
+    width: 950px;
+    height: 200px;
+    left: 230px;
+    top: 170px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 132px 110px 300px 116px 100px auto;
+    grid-template-rows: 25px 110px auto;
+}
+
+.selected_time {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    align-self: center;
+    justify-self: center;
+}
+
+.grid_price {
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #232323;
+}
+
+
+
+
+
+
+
